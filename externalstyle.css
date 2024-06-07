@@ -1,0 +1,164 @@
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contact-container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+}
+
+.contact-left-title{
+   font-weight: 600;
+   color: #a363aa;
+   font-size: 40px;
+   margin-bottom: 5px;
+   
+
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+
+}
+
+.contact-inputs:focus{
+    border: 3px solid #ff994f;
+}
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+}
+
+.contact-left button img{
+    height: 20px;
+}
+
+.title{
+
+   color: White;
+   font-size: 40px;
+   
+
+}
+
+.info{
+
+    color: White;
+   font-size: 25px;
+   margin-bottom: 5px;
+   vertical-align: text-top;
+
+}
+
+.info src{
+    height: 1px;
+    
+}
+
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+}
+
+.education-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ECF0F1; /* Light background for the box */
+    color: #2C3E50; /* Dark text color for contrast */
+    border-radius: 10px;
+}
+
+.education-section h2 {
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: 20px;
+    color: #3498DB;
+}
+
+.education-entry {
+    margin-bottom: 20px;
+}
+
+.education-entry h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #2980B9;
+}
+
+.education-entry p {
+    margin: 5px 0;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #2C3E50;
+}
+

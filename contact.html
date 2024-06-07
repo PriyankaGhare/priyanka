@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="externalstyle.css">
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(40, 40, 85);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(154, 154, 227);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.7rem;
+        }
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.getintouch {
+  display: flex;
+  justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            
+}
+
+.getintouch > div {
+  margin: 50px;
+  padding: 20px;
+  font-size: 30px;
+  
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Priyanka Ghare </div>
+            <div class="right">
+                <ul>
+                    <li> <a href="index.html">Home </a></li>
+                    <li> <a href="about.html">About</a></li>
+                    <li> <a href="project.html">Projects</a></li>
+                    <li> <a href="contact.html">Contact </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+ <div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+<div class="contact-left-title">
+<h2>Get in touch</h2>
+<hr>
+</div>
+<input type="hidden" name="access_key" value="e21941d8-31d4-4d90-b761-49d39473cbe5">
+<input type ="text" name="" placeholder=" Your Name" class="contact-inputs" required>
+<input type ="email" name="" placeholder=" Email" class="contact-inputs" required>
+<textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+<button type="submit"> Submit <img src="arrow.png" alt=""> </button> 
+</form>
+    <div class="contact-right">
+        <div class="title">Contact Info</div>
+        <div class = "info"><img src = "employee.png" alt="" width="40" height="40" align="center"> &nbsp &nbsp Priyanka Ghare</div>
+        <div class = "info"><img src = "email.png" alt="" width="40" height="40" align="center"> &nbsp &nbsp pmghare@gmail.com</div>
+        <div class = "info"><img src = "location.png" alt="" width="40" height="40" align="center"> &nbsp &nbsp Atlanta, GA, USA</div>
+    </div>
+ </div>
+
+
+
+</body>
+</html>
